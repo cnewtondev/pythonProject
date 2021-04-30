@@ -19,3 +19,14 @@
 # this is due to "character"seperators. EX:
 # df4=pandas.read_csv("supermarkets-commas.txt")
 # df4
+
+# Extracting data from a notebook ************
+# specify first row through last row and then
+# first column to last column wanted. EX:
+# df7=pandas.read_json("myFile.json")
+# df7.loc["myID":"mySecondID","myColumn":"mySecondColumn"]
+# or more commonly
+# df7.iloc[1:3,1:3]
+
+# How to drop/delete
+# df7=df7.drop("myRow", <number of column or leave blank>)
