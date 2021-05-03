@@ -30,3 +30,11 @@
 
 # How to drop/delete
 # df7=df7.drop("myRow", <number of column or leave blank>)
+
+# Pandas Geocoding==============
+# from geopy.geocoders import ArcGIS
+# nom = ArcGIS()
+# nom.geocode("122 Street, City, state zip")
+# storing in variable
+# n=nom.geocode("122 street, city, state zip")
+# print(n.lattitude)
